@@ -7,7 +7,6 @@
 
   text-align: center;
   overflow: hidden;
-  background-color: #00345f;
 }
 
 .App-header {
@@ -16,6 +15,13 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: 18vmin;
   color: white;
+}
+
+.App-header p.header {
+  font-size: 18vmin;
+}
+
+.social {
+
 }
