@@ -1,14 +1,15 @@
 import './App.css';
 
 function App() {
-  const ICON_SIZE = 36;
+  const ICON_SIZE = 32;
   return (
     <div className="App">
       <header className="App-header">
-        <p class="header">RUCKER122</p>
-        <ul class="social">
-          <li><img src="/svg/codepen.png" width={ICON_SIZE} /></li>
-          <li><img src="/svg/github.svg" width={ICON_SIZE} /></li>
+        <p className="header">RUCKER122</p>
+        <ul className="social">
+          <li><img src="/img/x.png" width={ICON_SIZE} alt="x" /></li>
+          <li><img src="/img/codepen.png" width={ICON_SIZE} alt="codepen" /></li>
+          <li><img src="/img/github.svg" width={ICON_SIZE} alt="github" /></li>
         </ul>
       </header>
     </div>

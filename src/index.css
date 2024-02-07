@@ -10,5 +10,5 @@ body {
 }
 
 p { margin: 0; }
-ul { display: flex; gap: 12px; }
+ul { display: flex; gap: 16px; }
 li { list-style: none; }
