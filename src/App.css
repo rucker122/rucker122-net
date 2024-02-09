@@ -20,8 +20,5 @@
 
 .App-header p.header {
   font-size: 18vmin;
-}
-
-.social {
-
+  text-shadow: 8px 8px 4px #000;
 }
