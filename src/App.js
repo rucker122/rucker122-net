@@ -1,6 +1,11 @@
 import './App.css';
+import { useEffect } from 'react';
+import { Parallax } from './parallax/p';
 
 function App() {
+  useEffect(() => {
+    var t = new Parallax('.App-header');
+  });
   const ICON_SIZE = 32;
   return (
     <div className="App">
