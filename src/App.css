@@ -1,10 +1,4 @@
 .App {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 100;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
-
   text-align: center;
   overflow: hidden;
 }
@@ -19,7 +13,7 @@
 }
 
 .App-header p.header {
-  font-size: 18vmin;
+  font-size: 12vmin;
   text-shadow: 8px 8px 4px #000;
 }
 
