@@ -1,8 +1,8 @@
 export class Parallax{
-    element;
-
-    constructor(n) {
+    constructor(n, options) {
         this.initElement(n);
+        this.options = options;
+        console.log(options);
     }
 
     initElement(n) {
@@ -22,6 +22,10 @@ export class Parallax{
         document.addEventListener("mousemove", (e) => {
             let moveX = (e.x - window.innerWidth / 2) / 50;
             let moveY = (e.y - window.innerHeight / 2) / 50;
+
+            // Determining it's direction
+            if (this.options.moveDirection) [ moveX, moveY ] = [ -moveX, -moveY ];
+
             this.element.style.transform = `translate(${moveX}px, ${moveY}px)`;
         });
     }

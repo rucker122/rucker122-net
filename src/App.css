@@ -1,6 +1,17 @@
 .App {
+  width: 100vw;
+  height: 100vh;
   text-align: center;
-  overflow: hidden;
+}
+
+.App .spotlight {
+  z-index: -1;
+  position: absolute;
+  top: -5%;
+  left: 0;
+  width: 120%;
+  height: 120%;
+  background: radial-gradient(circle at 70% 15%, #343944 0%, #343944 10%, transparent 30%);
 }
 
 .App-header {
@@ -14,9 +25,9 @@
 
 .App-header p.header {
   font-size: 12vmin;
-  text-shadow: 8px 8px 4px #000;
+  text-shadow: 2px 4px 4px #000;
 }
 
 .social img {
-  filter: drop-shadow(4px 4px 2px #000);
+  filter: drop-shadow(0px 2px 2px #000);
 }
