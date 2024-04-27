@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/rucker122-net/static/css/main.a0b2ff2a.css",
+    "main.js": "/rucker122-net/static/js/main.3c840fa1.js",
+    "static/js/787.24412017.chunk.js": "/rucker122-net/static/js/787.24412017.chunk.js",
+    "index.html": "/rucker122-net/index.html",
+    "main.a0b2ff2a.css.map": "/rucker122-net/static/css/main.a0b2ff2a.css.map",
+    "main.3c840fa1.js.map": "/rucker122-net/static/js/main.3c840fa1.js.map",
+    "787.24412017.chunk.js.map": "/rucker122-net/static/js/787.24412017.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a0b2ff2a.css",
+    "static/js/main.3c840fa1.js"
+  ]
+}
